@@ -37,7 +37,7 @@ export default function Login() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://https://travelmate-backend-gogp.onrender.com/api/auth/login",
+        "http://https://https://travelmate-backend-gogp.onrender.com/api/auth/login",
         form
       );
 

@@ -38,7 +38,7 @@ export default function MyBookings() {
       }
 
       const response = await axios.get(
-        "http://https://travelmate-backend-gogp.onrender.com/api/booking",
+        "http://https://https://travelmate-backend-gogp.onrender.com/api/booking",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -65,7 +65,7 @@ export default function MyBookings() {
   const handleDelete = async (id) => {
     try {
       await axios.delete(
-        `http://https://travelmate-backend-gogp.onrender.com/api/booking/delete/${id}`,
+        `http://https://https://travelmate-backend-gogp.onrender.com/api/booking/delete/${id}`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
@@ -98,7 +98,7 @@ export default function MyBookings() {
       const totalPrice = costPerPerson * travelers;
 
       const response = await axios.put(
-        `http://https://travelmate-backend-gogp.onrender.com/api/booking/update/${editingBooking._id}`,
+        `http://https://https://travelmate-backend-gogp.onrender.com/api/booking/update/${editingBooking._id}`,
         {
           from: editingBooking.from,
           date: editingBooking.date,

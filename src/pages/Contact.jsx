@@ -41,7 +41,7 @@ export default function Contact() {
 
     try {
       await axios.post(
-        "http://https://travelmate-backend-gogp.onrender.com/api/contact",
+        "http://https://https://travelmate-backend-gogp.onrender.com/api/contact",
         form
       );
 
@@ -264,7 +264,7 @@ export default function Contact() {
 
 //     try {
 //       await axios.post(
-//         "http://https://travelmate-backend-gogp.onrender.com/api/contact",
+//         "http://https://https://travelmate-backend-gogp.onrender.com/api/contact",
 //         {
 //           name,
 //           email,

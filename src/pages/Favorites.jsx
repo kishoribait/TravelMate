@@ -24,7 +24,7 @@ export default function Favorites() {
 
     try {
       const response = await axios.get(
-        "http://https://travelmate-backend-gogp.onrender.com/api/favorite",
+        "http://https://https://travelmate-backend-gogp.onrender.com/api/favorite",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -57,7 +57,7 @@ export default function Favorites() {
   const handleRemove = async (id) => {
     try {
       await axios.delete(
-        `http://https://travelmate-backend-gogp.onrender.com/api/favorite/${id}`,
+        `http://https://https://travelmate-backend-gogp.onrender.com/api/favorite/${id}`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
