@@ -5,13 +5,13 @@ import goa from "../assets/images/goa.jpg";
 import jaipur from "../assets/images/jaipur.jpg";
 import manali from "../assets/images/manali.jpg";
 import udaipur from "../assets/images/udaipur.jpg";
-import andaman from "../assets/images/Andaman.jpg";
+import andaman from "../assets/images/andaman.jpg";
 import shimla from "../assets/images/shimla.jpg";
 import kashmir from "../assets/images/kashmir.jpg";
 import kerala from "../assets/images/kerala.jpg";
-import rishikesh from "../assets/images/Rishikesh.jpg";
-import agra from "../assets/images/Agra.jpg";
-import ladakh from "../assets/images/Ladakh.jpg";
+import rishikesh from "../assets/images/rishikesh.jpg";
+import agra from "../assets/images/agra.jpg";
+import ladakh from "../assets/images/ladakh.jpg";
 
 export default function DestinationDetails() {
   const { name } = useParams();
