@@ -143,7 +143,7 @@ export default function BookingConfirmation() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/booking/create",
+        "http://https://travelmate-backend-gogp.onrender.com/api/booking/create",
         {
           from: state.from,
           destination: state.destination,

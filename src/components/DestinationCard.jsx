@@ -20,7 +20,7 @@ useEffect(() => {
 
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/favorite",
+        "http://https://travelmate-backend-gogp.onrender.com/api/favorite",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -55,7 +55,7 @@ const handleFavorite = async () => {
 
     if (isFavorite) {
       const response = await axios.get(
-        "http://localhost:5000/api/favorite",
+        "http://https://travelmate-backend-gogp.onrender.com/api/favorite",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -73,7 +73,7 @@ const handleFavorite = async () => {
       }
 
       await axios.delete(
-        `http://localhost:5000/api/favorite/${favorite._id}`,
+        `http://https://travelmate-backend-gogp.onrender.com/api/favorite/${favorite._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -89,7 +89,7 @@ const handleFavorite = async () => {
     }
 
     await axios.post(
-      "http://localhost:5000/api/favorite",
+      "http://https://travelmate-backend-gogp.onrender.com/api/favorite",
       {
         destination: destination.name,
       },

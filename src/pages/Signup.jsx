@@ -51,7 +51,7 @@ export default function Signup() {
       setLoading(true);
 
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "http://https://travelmate-backend-gogp.onrender.com/api/auth/register",
         form
       );
 

@@ -4,13 +4,7 @@ import axios from "axios";
 import heroBg from "../assets/images/hero-bg.jpg";
 import toast from "react-hot-toast";
 
-import {
-  FaEnvelope,
-  FaLock,
-  FaEye,
-  FaEyeSlash,
-  FaCompass,
-} from "react-icons/fa";
+import { FaEnvelope,FaLock,FaEye,FaEyeSlash,FaCompass,} from "react-icons/fa";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -43,7 +37,7 @@ export default function Login() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "http://https://travelmate-backend-gogp.onrender.com/api/auth/login",
         form
       );
 
